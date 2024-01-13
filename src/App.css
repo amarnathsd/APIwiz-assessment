@@ -2,7 +2,7 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f4f8; /* Bluish white background */
+  background-color: #f0f4f8; 
 }
 
 h1 {
@@ -35,9 +35,8 @@ p {
   width: 56%;
   padding: 8px;
   margin-right: 10px;
-  background-color: #fff; /* White background */
-  color: #000; /* Text color */
-  /* border: 1px solid #000; Black border */
+  background-color: #fff;
+  color: #000;   
   border-radius: 5px;
   cursor: pointer;
 }
@@ -45,9 +44,8 @@ p {
 .w-96 {
   width: 96%;
   margin-top: 20px;
-  background-color: #fff; /* White background */
-  color: #000; /* Text color */
-  /* border: 1px solid #000; Black border */
+  background-color: #fff; 
+  color: #000; 
   border-radius: 5px;
 }
 
@@ -60,4 +58,3 @@ p {
   border-radius: 5px;
 }
 
-/* Add more styles as needed */
