@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import Paragraph from "./components/ParagraphAnalysis";
+import WordInput from "./components/WordAnalysis";
 
 function App() {
+  const [activeWord, setActiveWord] = useState(false);
+  const [activeParagraph, setActiveParagraph] = useState(false);
+
+  const onWordClick = () => {
+    setActiveWord(true)
+    setActiveParagraph(false)
+  }
+
+  const onParagraphClick = () => {
+    setActiveParagraph(true)
+    setActiveWord(false)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <>
+      <div>
+        <h1>Text Analyzer</h1>
+        <p className="mt-5">
+          Text Analyzer is a simple free online tool for SEO web content
+          analysis that helps you find most frequent phrases and words, number
+          of characters, words, sentences and paragraphs, and estimated read and
+          speak time of your content.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <div className="flex mt-10 mb-10">
+          <button className="w-56" onClick={onWordClick}>Word Input</button>
+          <button className="w-56" onClick={onParagraphClick}>Paragraph</button>
+        </div>
+      </div>
+      {activeWord && <WordInput />}
+      {activeParagraph && <Paragraph />}
+    </>
   );
 }
 

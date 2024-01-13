@@ -1,0 +1,57 @@
+/* WordInput specific styles */
+
+/* Input and Button Styles */
+input {
+    width: 80%;
+    padding: 10px;
+    /* border: 1px solid  #302e2e; Black border */
+    margin-right: 10px;
+    border-radius: 5px; /* Rounded corners */
+    /* color: #374151; Grey 600 text color */
+    background-color: #F3F4F6; /* Bluish White background */
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #fff; /* White background */
+    color: #374151; /* Grey 600 text color */
+    /* border: 1px solid #302e2e; Black border */
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  /* Result Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 5px; /* Rounded corners */
+    margin-left: 10px;
+    
+  }
+  .th-left {
+    text-align: left;
+  }
+  
+  th, td {
+    /* border: 1px solid  #302e2e; Black border */
+    padding: 10px;
+  }
+  
+  /* Definition Section Styles */
+  .border {
+    /* border: 1px solid #302e2e; Black border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #F3F4F6; /* Bluish White background */
+  }
+  
+  p {
+    margin-top: 10px;
+    color: #374151; /* Grey 600 text color */
+  }
+  
+  .ms-5{
+    align-items: initial;
+  }
