@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/APIwiz-assessment/static/css/main.0e94af47.css",
+    "main.js": "/APIwiz-assessment/static/js/main.e034c40a.js",
+    "static/js/787.5b3bc141.chunk.js": "/APIwiz-assessment/static/js/787.5b3bc141.chunk.js",
+    "index.html": "/APIwiz-assessment/index.html",
+    "main.0e94af47.css.map": "/APIwiz-assessment/static/css/main.0e94af47.css.map",
+    "main.e034c40a.js.map": "/APIwiz-assessment/static/js/main.e034c40a.js.map",
+    "787.5b3bc141.chunk.js.map": "/APIwiz-assessment/static/js/787.5b3bc141.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e94af47.css",
+    "static/js/main.e034c40a.js"
+  ]
+}
